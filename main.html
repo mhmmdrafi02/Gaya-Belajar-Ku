@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Penilaian Gaya Belajar</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <!-- Logo di kiri atas -->
+    <img src="assets/logo/1.png" class="logo-left" alt="Logo Kiri Atas">
+
+    <!-- Logo di kanan atas -->
+    <img src="assets/logo/2.png" class="logo-right" alt="Logo Kanan Atas">
+    <div class="container">
+        <h1>Penilaian Gaya Belajar</h1>
+        <div id="question"></div>
+        <div id="options">
+            <div class="option">
+                <button id="optionA" onclick="recordAnswer('A')">
+                    <img src="" alt="Option A">
+                    <span class="option-text"></span>
+                </button>
+            </div>
+            <div class="option">
+                <button id="optionB" onclick="recordAnswer('B')">
+                    <img src="" alt="Option B">
+                    <span class="option-text"></span>
+                </button>
+            </div>
+            <div class="option">
+                <button id="optionC" onclick="recordAnswer('C')">
+                    <img src="" alt="Option C">
+                    <span class="option-text"></span>
+                </button>
+            </div>
+        </div>
+        <div id="result"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

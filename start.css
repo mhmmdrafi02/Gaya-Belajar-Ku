@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F5F5F5;
+    font-family: 'Comic Neue', cursive;
+}
+
+.container {
+    max-width: 400px;
+    text-align: center;
+    padding: 40px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #FF4081;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 700;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+button[type="submit"] {
+    background-color: #FF4081;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #FF80AB;
+}
+
+/* CSS untuk logo kiri atas */
+.logo-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 200px; /* Sesuaikan lebar logo */
+    height: auto; /* Sesuaikan tinggi logo jika diperlukan */
+}
+
+/* CSS untuk logo kanan atas */
+.logo-right {
+    position: absolute;
+    top: -25px;
+    right: 10px;
+    width: 200px; /* Sesuaikan lebar logo */
+    height: auto; /* Sesuaikan tinggi logo jika diperlukan */
+}

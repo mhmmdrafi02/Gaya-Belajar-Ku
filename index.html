@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GayaBelajarKu</title>
+    <link rel="stylesheet" type="text/css" href="start.css">
+</head>
+<body>
+    <!-- Logo di kiri atas -->
+    <img src="assets/logo/1.png" class="logo-left" alt="Logo Kiri Atas">
+
+    <!-- Logo di kanan atas -->
+    <img src="assets/logo/2.png" class="logo-right" alt="Logo Kanan Atas">
+    <div class="container">
+        <h1>Selamat Datang!</h1>
+        <form id="startForm" onsubmit="startQuiz(event)">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" required>
+            <br>
+            <label for="class">Kelas:</label>
+            <input type="text" id="class" required>
+            <br>
+            <button type="submit">Mulai</button>
+        </form>
+    </div>
+
+    <script src="start.js"></script>
+</body>
+</html>

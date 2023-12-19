@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F5F5F5;
+    font-family: 'Comic Neue', cursive;
+}
+
+.container {
+    max-width: 600px;
+    text-align: center;
+    padding: 40px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    color: #FF4081;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #FFD700;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    outline: none;
+    font-size: 14px;
+    color: #FFF;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FFC400;
+}
+
+/* CSS untuk logo kiri atas */
+.logo-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 200px; /* Sesuaikan lebar logo */
+    height: auto; /* Sesuaikan tinggi logo jika diperlukan */
+}
+
+/* CSS untuk logo kanan atas */
+.logo-right {
+    position: absolute;
+    top: -25px;
+    right: 10px;
+    width: 200px; /* Sesuaikan lebar logo */
+    height: auto; /* Sesuaikan tinggi logo jika diperlukan */
+}
